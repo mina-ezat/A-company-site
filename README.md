@@ -1,5 +1,3 @@
-<p> <img src="https://user-images.githubusercontent.com/57676885/75745206-49b21b80-5d1f-11ea-88fe-cb7e6632cf22.png"></p>
-
 
 # Company-Website
 
@@ -14,3 +12,4 @@ A site that can be suitable for more than one company where the company can offe
 
 ## Built With
 - **HTML  - CSS - JAVASCRIPT - BOOTSTRAP - jquery**
+<p> <img src="https://user-images.githubusercontent.com/57676885/75745206-49b21b80-5d1f-11ea-88fe-cb7e6632cf22.png"></p>
