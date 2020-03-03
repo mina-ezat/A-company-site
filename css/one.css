@@ -1,0 +1,767 @@
+body
+{
+/*    perspective: 1000px;*/
+    overflow: hidden;
+  
+}
+/*sart navbar*/
+.navbar-default
+{
+    background: #0b1444eb;
+    border: 1px solid #0b1444
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a,.navbar-default .navbar-nav > li > a:focus
+{
+    color:#fff;
+    text-transform: uppercase    
+}
+
+.dropdown-menu 
+{
+    padding-bottom: 20px;
+    background: #0b1444eb
+        
+}
+.navbar-default .navbar-nav > li > a
+{
+    color:#fff
+}
+.dropdown-menu > li > a
+{
+    color:#fff;
+    padding: 8px 20px;
+    transition: padding .5s ease;
+
+}
+
+
+.navbar-default .navbar-nav > li > a:hover{
+
+    color: blue;
+    
+}
+
+
+/*
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a,.dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > .open > a:focus{
+ color: #fff
+}
+*/
+
+.dropdown-menu .divider
+{
+  background:#0b1444eb
+
+}
+.navbar-right .dropdown-menu
+{
+    left: 0;
+    right: auto;
+    width: 180px;
+}
+
+
+.navbar {
+    
+      /* */
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+
+    
+    border-radius: 0px;
+    font-size: 17px;
+   margin-bottom: 0;
+  
+
+   
+}
+.navbar-inverse .navbar-nav
+{
+/*    padding-right: 15px*/
+}
+.navbar-nav > li > a,.navbar-inverse .navbar-brand {
+   
+    padding: 20px;
+}
+
+
+.dropdown-menu > li > a:hover
+{
+     padding-left: 25px
+}
+/*end navbar*/
+/*sart carousel*/
+.carousel
+{
+    padding-top: 62px;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img
+{
+     width: 100%;
+     height: 300px 
+}
+.carousel-inner > .item
+{
+     background-size: contain
+}
+.carousel-caption
+{
+    background-color:rgba(1,1,1,.2);
+    padding: 0 10px;
+    margin-bottom: 10px;
+   border:3px solid rgba(1,1,1,.4)
+ 
+}
+.carousel-indicators {
+    bottom: -11px;
+}
+.test
+{
+   
+    min-height: 300px;
+    background: url("../images/bram-naus-200967-unsplash.jpg") no-repeat center center ;
+    background-size: cover;
+}
+.test2
+{
+   
+    min-height: 300px;
+    background: url("../images/christopher-gower-291246-unsplash.jpg") no-repeat center center ;
+    background-size: cover;
+}
+.test3
+{
+   
+    min-height: 300px;
+    background: url("../images/PeopleImages.com-1773461-zoom%20(1).jpg") no-repeat center center ;
+    background-size: cover;
+}
+.test4
+{
+   
+    min-height: 300px;
+    background: url("../images/bram-naus-200967-unsplash.jpg") no-repeat center center ;
+    background-size: cover;
+}
+.test5
+{
+   
+    min-height: 300px;
+    background: url("../images/christopher-gower-291246-unsplash.jpg") no-repeat center center ;
+    background-size: cover;
+}
+  /*end carousel*/
+ /*start section*/
+.about h2,.about h3
+{
+    font-weight: bold;
+}
+
+.features h4
+{
+    font-weight: bold;
+    font-size: 20px
+}
+.features
+{
+    background-color: #eee;
+    margin-top: 30px
+}
+.icon
+{
+    font-size: 20px;
+    padding-right: 5px;
+    
+}
+/*end section*/
+/*start sectin opinion*/
+ .opinions .carousel {
+    padding-top: 8px;
+}
+ .opinions .carousel-indicators {
+    position: static;
+    width: 100%;
+    padding-left: 0; 
+    left: 0%;
+     margin-left: 0%;
+     padding-top: 10px
+   
+         
+}
+.opinions .carousel-indicators li img
+{
+    width: 100%;
+    display: block;
+    height: 100%
+    
+}
+.opinions .carousel-indicators li
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity:.5;
+}
+.opinions .carousel-indicators .active
+{
+    background: none;
+    box-shadow:none;
+    opacity:1;
+    transition: all .5s ease;
+}
+/*start sectin opinion*/
+/*start section price*/
+.price
+{
+    background-color: #ddd;
+    padding: 1px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    min-height: 418px
+}
+.price-child
+{
+   background-color:#FFF;
+   padding-top: 5px;
+    padding-bottom: 10px;
+     -wbkit-transition-duration: .8s;
+    -moz-transition-duration: .8s;
+    -o-transition-duration: .8s;
+    transition-duration: .8s;
+    border:2px solid #fff;
+    margin-bottom: 10px
+}
+
+.price .price-child p
+{
+    color: #555;
+    font-size: 20px;
+    font-weight: bold;
+    width: 80px;
+    height:80px;
+    border-radius: 50%;
+    line-height: 80px;
+    background: #eee;
+    -wbkit-transition-duration: .8s;
+    -moz-transition-duration: .8s;
+    -o-transition-duration: .8s;
+    transition-duration: .8s;
+    border:2px solid #fff;
+}
+.price .price-child:hover
+{
+    transform: translateZ(5px);
+    box-shadow: 1px 1px 20px 10px  #999;
+
+
+}
+.price .price-child:hover .p1
+{ 
+transform: rotateZ(360deg) scale(1.1,1.1);
+color:#337ab7;
+font-size: 21px;
+border:2px solid #337ab7;
+    
+}
+.price .price-child:hover .p2
+{ 
+transform: rotateZ(360deg) scale(1.1,1.1);
+color:#5bc0de;
+font-size: 21px;
+border:2px solid #5bc0de;
+    
+}
+.price .price-child:hover .p3
+{ 
+transform: rotateZ(360deg) scale(1.1,1.1);
+color:#d9534f;
+font-size: 21px;
+border:2px solid #d9534f;
+    
+}
+.price .price-child:hover .p4
+{ 
+transform: rotateZ(360deg) scale(1.1,1.1);
+color:#5cb85c;
+font-size: 21px;
+border:2px solid #5cb85c;
+    
+}
+.price .price-child ul li
+{
+    color:#555;
+    line-height:2 
+}
+.price .price-child:hover ul li
+{
+    font-size: 17px;
+    font-weight: bold;
+  
+}
+/*end section price*/
+  /* start section information our team */
+.our-team
+{
+    background: url(../images/christopher-gower-291246-unsplash.jpg) no-repeat center center fixed ;
+    background-size: cover;
+    min-height: 300px;
+    color:#fff
+}
+.color-team
+{
+    background: rgba(0,0,0,.7);
+    min-height: 300px
+}
+.color-team h2
+{
+    margin-bottom: 30px
+}
+.color-team .preson
+{
+    margin-bottom: 10px;
+    transition-duration: 1s;
+    
+}
+.color-team .preson img
+{
+    width: 150px;
+    height: 150px
+}
+.color-team .preson p
+{
+    line-height: 2
+}
+.color-team .preson:hover .card-parend
+{
+    transform:  rotateY(-180deg)  rotateZ(360deg)
+ 
+    
+
+}
+.color-team .preson fa-facebook-square
+{
+    padding-left: 3px
+}
+.card-parend
+{
+    position: relative;
+    transform-style: preserve-3d;
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    transition:1s ease;
+    margin-left: 25px;
+   
+}
+.card-parend .card1
+{
+ z-index: 1 ;
+    position:absolute;
+    backface-visibility:hidden;
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+}
+.card-parend .card2
+{
+    z-index: 2;
+    position:absolute;
+    backface-visibility:hidden;
+    transform: rotateY(180deg);
+/*    background:#444;*/
+    width: 100%;
+    height: 100%;
+     border-radius: 50%;     
+}
+
+.abanob
+{
+    background: url("../images/14352539_1846111568945348_7543783935329712255_o.jpg") no-repeat ;
+    background-size: cover;
+}
+.keroles
+{
+    background:url("../images/26166026_1582102391874048_8388423736843819385_n.jpg");
+    background-size: cover;
+}
+.marco
+{
+    background:url("../images/43297609_743761345955193_1140175351637344256_n.jpg");
+    background-size: cover;
+}
+.mina
+{
+    background:url("../images/48397720_340689879995476_2018963950032388096_n.jpg");
+    background-size: cover;
+}
+.color-section
+{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(4,4,4,.7);
+    border-radius: 50%;
+    line-height: 25px;
+    padding-top: 20px
+}
+  /* end section information our team */
+      /*start section subscribe*/
+.subscribe
+{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background: #EEE;
+}
+.subscribe h2
+{
+    margin-bottom: 20px;
+    color:#666;
+}
+.subscribe p
+{
+    color: #444;
+    margin-bottom: 40px;
+}
+.subscribe .form-control
+{
+    border-radius:0;
+
+    
+}
+.subscribe .btn 
+{
+   border-radius:0;
+    margin-left: -4.5px;
+}
+
+     /*end section subscribe*/
+     /*start section information company*/
+
+
+
+.information-company .section-img
+{
+    background: url("../images/bram-naus-200967-unsplash.jpg") no-repeat center center fixed ;
+    background-size: cover;
+        min-height:300px; 
+    
+}
+ .section-color
+{
+    background: rgba(1,1,1,.8);
+    min-height: 300px;
+    color:#eee;
+    padding-top: 10px;
+    padding-bottom: 40px
+}
+.information-company h2
+{
+    margin-bottom: 50px
+}
+.information-company p
+{
+    font-size: 25px;
+    margin-bottom: 0;
+     transition-duration:.4s;
+    margin-top: 5px
+}
+.information-company span
+{
+    font-size: 15px;
+    transition-duration:.4s;
+}
+.information-company .child
+{
+  
+    transform-style: preserve-3d;
+}
+.information-company .child:hover p
+{
+    transform: translateZ(-5px);
+    font-size: 30px;
+    color:#fff;
+    text-shadow: 3px 3px 5px #ddd;
+    font-weight: bold
+}
+.information-company .child:hover span
+{
+    transform: translateZ(-5px);
+    font-weight: bold;
+    color:#fff;
+    font-size: 20px;
+   
+}
+      /*end section information company*/
+/*start section our-skills*/
+.our-skills .info-skills h3
+{
+    margin-top: 0
+}
+.our-skills .progress
+{
+    height: 34.4px
+}
+.our-skills .progress-bar 
+{
+    line-height: 34.4px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 10px;
+        
+}
+.our-skills .info-skills button
+{
+    width: 150px;
+}
+
+/*end section our-skills*/
+/*start section contact us*/
+.contact-us
+{
+    
+    background: url("../images/jannis-brandt-1152771-unsplash.jpg") no-repeat center center fixed ;
+    background-size: cover;
+        min-height:300px; 
+}
+.contact-us textarea
+{
+    height: 105px;
+}
+/*end section contact us*/
+/*start section our clients*/
+.our-clients
+{
+    background: #EEE;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+.our-clients img
+{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    opacity: .7;
+  
+    transition: 1s
+}
+
+.our-clients img:hover
+{
+    transform: rotateZ(360deg)  ;
+    
+    opacity: 1
+}
+
+/*end section our clients*/
+/*start footer*/
+footer 
+{
+    background: #333;
+    color:#eee
+}
+footer .footer1 ul li
+{
+    line-height: 50px;
+    font-size: 15px;
+}
+footer h2
+{
+    font-weight: bold;
+    text-shadow: 1px 1px 10px red,-1px -1px 10px #d9534f;
+    opacity: .8
+}
+.ul1
+{
+    line-height: 2;
+    font-weight: bold;
+    text-shadow: 1px 1px 20px #d9534f,-1px -1px 20px #d9534f
+}
+.ul2
+{
+    margin-bottom: 10px
+}
+footer .ul2 li
+{
+    padding:0 7px;
+
+}
+footer .ul2 li 
+{
+color:#e3a5a5;
+    transition: .5s
+}
+footer li:hover
+{
+  transition: .5s;
+    color:red;
+}
+footer h4
+{
+    margin-top: 0
+}
+ footer .footer2 img
+{
+    width:80px;
+    height:60px
+}
+ footer .media-body,footer .footer2  img
+{
+    opacity: .7;
+    transition: .5s
+}
+footer .footer2 img:hover
+{
+    opacity: 1
+}
+footer .media-body:hover
+{
+    opacity: 1;
+
+    
+}
+footer .footer3 img
+{
+    width: 130px;
+    height: 112px;
+    background: #c67d7dc4;
+    border:2px solid #333;
+    transition: .5s
+}
+footer .footer3 img:hover
+{
+    box-shadow: -5px 5px 10px #222,5px -5px 10px #222;
+    transform:translateZ(-1px);
+     border:2px solid #999;
+}
+ footer .copyright 
+{
+    background: #111;
+    padding:15px 0;
+    color:#999;
+    margin-top: 10px
+}
+/*end footer*/
+/*start setting*/
+.setting
+{
+    position: absolute;
+    z-index: 999;
+    top: 60px;
+    left: 1px
+}
+.setting .color-ul {
+    border:2px solid #f00;
+    height: 100px;
+     width: 100px;
+    margin-left: 40px;
+    margin-top: 20px;
+    color:#f00; 
+    display: none
+}
+.setting .color-ul li
+{
+   display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+.setting .color-ul h4
+{
+    border-bottom: 2px solid #f00
+}
+.icon-setting
+{
+    color:#f00;
+    opacity: .7;
+    transition: .5s;
+    
+}
+.icon-setting:active
+{
+    transform: rotateZ(80deg)
+}
+.load
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #000;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+}
+.span-load
+{
+    position: absolute;
+    position: relative;
+    top: 84px;
+    left: 400px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%
+}
+.span-load  span
+{
+    border-radius: 50%;
+    background: #DDd;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius:;
+    top: 63px;
+    left: 63px;
+    animation: span-load 1s ease infinite ;
+/*    animation-iteration-count: infinite*/
+        
+}
+
+@keyframes span-load {
+    0%{
+         top: 63px;
+         left: 63px; 
+         width: 5px;
+         height: 5px;
+         opacity:1;
+    }
+     20%{
+        top: 63px;
+        left: 63px;
+         width: 20px;
+         height: 20px;
+         opacity:.8;
+    }
+     40%{
+         top: 63px;
+         left: 63px;
+         width: 60px;
+         height: 60px;
+         opacity: .6
+    }
+     60%{
+        top: 63px;
+        left: 63px; 
+        width: 80px;
+        height: 80px;
+        opacity:.4;
+         
+    }
+     80%{
+         top: 63px;
+         left: 63px; 
+        width: 100px;
+        height: 100px;
+        opacity:.2;
+ 
+    }
+     100%{
+          top: 63px;
+         left: 63px; 
+        width: 130px;
+        height: 130px;
+        opacity:0;
+    }
+}

@@ -1,0 +1,30 @@
+
+@media(max-width:768px)
+{
+.navbar-nav > li > a, .navbar-inverse .navbar-brand
+
+        {
+            padding: 10px;
+            
+                
+        }
+    .h2footer
+    {
+        margin-top: 63px
+    }
+    .subscribe .btn
+    {
+        margin-top: 20px
+    }
+    .card-parend
+    {
+        margin:auto
+    }
+}
+@media(min-width:769px) and (max-width:1000px)
+{
+     .card-parend
+    {
+        margin-left: 85px
+    }
+}

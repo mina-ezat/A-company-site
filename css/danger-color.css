@@ -1,0 +1,28 @@
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a,.dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > .open > a,.navbar-default .navbar-nav > li > a:focus ,.carousel-indicators .active{
+  background-color:#ff4490; 
+}
+.dropdown-menu 
+{
+    border-bottom:2px solid #ff4490;
+    border-top:2px solid #ff4490;
+}
+.carousel-indicators .active
+{
+    box-shadow: 0px 0px 20px 3px #ff4490
+}
+.carousel-indicators li ,.loge,.logo2,
+.setting .color-ul,.icon,
+footer h2,.setting .color-ul ,.al3z,.icon-setting
+{
+    color:#ff4490
+}
+.opinions .carousel-indicators .active,.setting .color-ul 
+{
+    border: 2px solid #ff4490;
+}
+.setting .color-ul h4
+{
+    border-bottom: 2px solid  #ff4490
+}
